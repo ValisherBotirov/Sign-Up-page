@@ -1,0 +1,38 @@
+@media (max-width: 1080px) {
+  .img-page1 {
+    width: 80%;
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .img-page1 {
+    margin-top: 18rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .main-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "grid2 grid2" "grid1 grid1";
+  }
+  .grid-item-2 {
+    display: grid;
+    grid-area: grid2;
+    width: 100%;
+  }
+  .grid-item-1 {
+    display: grid;
+    grid-area: grid1;
+    width: 100%;
+  }
+  .img-page1 {
+    width: 100%;
+  }
+
+  .grid-item-1 .form-left {
+    width: 80%;
+    margin: 6.2rem auto;
+  }
+}
