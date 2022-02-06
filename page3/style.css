@@ -35,7 +35,7 @@ main {
 .img-banner {
   width: 100%;
   height: 100%;
-  background-image: url("/images/images-page4.png");
+  background-image: url("/images/images-page3.png");
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -91,7 +91,7 @@ section {
 .hr-top:hover {
   color: #012a93;
   border: 3px solid blue;
-  margin-bottom: 10rem;
+  margin  -bottom: 10rem;
 }
 
 .date-flex {
